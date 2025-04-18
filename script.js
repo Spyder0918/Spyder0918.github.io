@@ -29,7 +29,12 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.hash = targetPage;
             
             // Scroll to top
-            window.scrollTo(0, 0);
+            //window.scrollTo(0, 0);
+            // Scroll to the section smoothly and account for fixed header
+            const yOffset = -80; // adjust based on your header height
+            const y = document.getElementById(targetPage).getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+            window.scrollTo({ top: y, behavior: 'smooth' });
         });
     });
     
