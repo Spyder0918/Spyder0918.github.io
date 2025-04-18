@@ -92,7 +92,7 @@ main {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s, transform 0.5s;
-    scroll-margin-top: 100px;
+    /*scroll-margin-top: 100px;*/
 }
 
 .page-section.active {
