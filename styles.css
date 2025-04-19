@@ -99,7 +99,7 @@ nav a:hover::after {
 
 /* Main Content */
 main {
-    margin-top: 120px; /*Changed from 80px*/
+    margin-top: 80px; /*Changed from 80px*/
     /*min-height: calc(100vh - 160px);*/
     min-height: 100vh;
 }
