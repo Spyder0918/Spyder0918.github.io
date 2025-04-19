@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Get all navigation links
     const navLinks = document.querySelectorAll('nav a, .logo, .cta-button[data-page]');
     const pageSections = document.querySelectorAll('.page-section');
-    
+    const headerHeight = document.querySelector('header').offsetHeight; // Dynamically get header height
+
     // Add click event listeners to navigation links
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
@@ -31,7 +32,8 @@ document.addEventListener('DOMContentLoaded', function() {
             // Scroll to top
             //window.scrollTo(0, 0);
             // Scroll to the section smoothly and account for fixed header
-            const yOffset = -80; // adjust based on your header height
+            const yOffset = -headerHeight; // Use the dynamically calculated header height
+            //const yOffset = -80; // adjust based on your header height
             const y = document.getElementById(targetPage).getBoundingClientRect().top + window.pageYOffset + yOffset;
 
             window.scrollTo({ top: y, behavior: 'smooth' });
