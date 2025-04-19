@@ -34,8 +34,6 @@ document.addEventListener('DOMContentLoaded', function() {
             // Update URL hash
             window.location.hash = targetPage;
             
-            // Scroll to top
-            //window.scrollTo(0, 0);
             // Scroll to the section smoothly and account for fixed header
             const yOffset = -headerHeight; // Use the dynamically calculated header height
             //const yOffset = -80; // adjust based on your header height
@@ -77,6 +75,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Listen for hash changes
     window.addEventListener('hashchange', handleHash);
     
+    /* 
+    Not used since the submit form for contact me is not functional and missing from index.html
     // Contact form submission handling
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
@@ -88,4 +88,5 @@ document.addEventListener('DOMContentLoaded', function() {
             contactForm.reset();
         });
     }
+        */
 });
