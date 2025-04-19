@@ -1,11 +1,11 @@
 
 # Brandon Jacobs – Portfolio Website
 
-Welcome to my personal portfolio website! This site was created to showcase who I am, my background, the skills I've developed, and the projects I've built throughout my journey in software engineering. It also serves as a hub for potential collaborators, recruiters, and fellow developers to get in touch with me and view my work.
+Welcome to my personal portfolio website! This site was created to showcase who I am, my background, the skills I've developed, and the projects I've built throughout my journey in software engineering. It also serves as a hub for potential collaborators, recruiters, and fellow developers to contact me and view my work.
 
 ## 🌐 Live Site
 
-Check out the live website here https://spyder0918.github.io
+Check out the live website here https://brandon-jacobs-portfolio.neocities.org
 
 ## 📋 Features
 
@@ -15,7 +15,7 @@ Check out the live website here https://spyder0918.github.io
 - **About** – A deeper look at my background, including my transition from emergency services to software development.
 - **Resume** – Education, experience, skills, and download buttons for resume and cover letter.
 - **Portfolio** – A collection of my projects, with descriptions, screenshots, and links to GitHub repositories.
-- **Contact** – How to get in touch via email, LinkedIn, or GitHub.
+- **Contact** – How to contact via email, LinkedIn, or GitHub.
 
 ## 🛠️ Technologies Used
 
