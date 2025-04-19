@@ -270,8 +270,7 @@ main {
     /*object-fit: cover;*/
     /*object-fit: contain;*/
     /*object-fit: fill;*/
-    object-fit: none;
-    /*object-fit: scale-down;*/
+    object-fit: scale-down;
     /*object-fit: inherit;*/
     /*object-fit: initial;*/
     /*object-fit: revert;*/
