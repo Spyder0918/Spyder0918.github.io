@@ -11,23 +11,6 @@ body {
     color: #333;
     background-color: #f9f9f9;
 }
-/* Added to fix whitespace issue */
-html, body {
-    height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1;
-    margin-top: 80px; /* Keep this if you're accounting for the fixed header */
-}
-
-
-
 
 /* Layout */
 .container {
@@ -99,8 +82,7 @@ nav a:hover::after {
 
 /* Main Content */
 main {
-    margin-top: 80px; /*Changed from 80px*/
-    /*min-height: calc(100vh - 160px);*/
+    min-height: calc(100vh - 160px);
     min-height: 100vh;
 }
 
