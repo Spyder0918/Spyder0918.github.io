@@ -13,9 +13,14 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Update active section
             pageSections.forEach(section => {
-                section.classList.remove('active');
+                if (section.id === targetPage) {
+                    section.classList.add('active');
+                    section.style.display = 'block'; // Make the target section visible
+                } else {
+                    section.classList.remove('active');
+                    section.style.display = 'none'; // Hide inactive sections
+                }
             });
-            document.getElementById(targetPage).classList.add('active');
             
             // Update active navigation link
             navLinks.forEach(navLink => {
@@ -47,9 +52,14 @@ document.addEventListener('DOMContentLoaded', function() {
         
         if (targetSection) {
             pageSections.forEach(section => {
-                section.classList.remove('active');
+                if (section.id === hash) {
+                    section.classList.add('active');
+                    section.style.display = 'block'; // Make the target section visible
+                } else {
+                    section.classList.remove('active');
+                    section.style.display = 'none'; // Hide inactive sections
+                }
             });
-            targetSection.classList.add('active');
             
             navLinks.forEach(navLink => {
                 if (navLink.getAttribute('data-page') === hash) {
