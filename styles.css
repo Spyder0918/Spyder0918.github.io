@@ -82,8 +82,8 @@ nav a:hover::after {
 
 /* Main Content */
 main {
+    margin-top: 80px;
     min-height: calc(100vh - 160px);
-    min-height: 100vh;
 }
 
 .page-section {
@@ -92,6 +92,7 @@ main {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s, transform 0.5s;
+    scroll-margin-top: 100px;
     /*scroll-margin-top: 100px;*/
 }
 
@@ -229,7 +230,7 @@ main {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .download-button {
         width: 100%;
         max-width: 250px;
